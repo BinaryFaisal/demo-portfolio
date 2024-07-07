@@ -203,3 +203,37 @@ main{
     margin: 50px auto;
     display: block;
 }
+
+/* Footer */
+footer{
+    padding: 130px 230px;
+    background-color: var(--bg-secondary);
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column{
+    width: 50%;
+}
+.footer-column p{
+    font-size: 16px;
+    color: var(--dark3);
+}
+
+.footer-column a{
+    margin: 10px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin: 12px 0;
+    border: none;
+    padding: 10px 20px;
+}
+
+footer textarea{
+    height: 150px; 
+}
